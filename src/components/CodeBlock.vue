@@ -26,8 +26,7 @@ import { ref, onMounted, onUnmounted, nextTick, watch } from 'vue';
 import hljs from '../highlight';
 import ClipboardJS from 'clipboard';
 
-// 不需要再导入默认样式，因为已经在highlight.ts中导入了暗黑主题
-// import 'highlight.js/styles/default.css';
+
 
 const props = defineProps({
   language: {

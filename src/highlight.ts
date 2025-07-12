@@ -10,6 +10,8 @@ import objectivec from 'highlight.js/lib/languages/objectivec';
 import bash from 'highlight.js/lib/languages/bash';
 import xml from 'highlight.js/lib/languages/xml'; // 用于HTML
 
+// 默认主题
+// import 'highlight.js/styles/default.css';
 // 导入暗黑主题样式
 import 'highlight.js/styles/atom-one-dark.css';
 
