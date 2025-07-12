@@ -75,6 +75,61 @@ const features = [
       </div>
     </div>
 
+    <!-- AI + Tailwind CSS 展示部分 -->
+    <div class="mb-12 bg-gradient-to-br from-purple-50 to-indigo-50 rounded-xl overflow-hidden shadow-sm">
+      <div class="flex flex-col md:flex-row items-center">
+        <div class="md:w-1/2 p-8">
+          <div class="inline-flex items-center px-4 py-2 bg-indigo-100 text-indigo-800 rounded-full text-sm font-medium mb-4">
+            <svg class="w-5 h-5 mr-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" stroke="currentColor" stroke-width="2"/>
+              <path d="M17.5 6.5H17.51" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            人工智能 + 现代CSS
+          </div>
+          <h3 class="text-2xl font-bold text-gray-800 mb-3">AI驱动的网站设计</h3>
+          <p class="text-gray-600 mb-6 leading-relaxed">
+            这个演示网站<span class="font-semibold text-indigo-600">95%以上的代码</span>完全由人工智能和Tailwind CSS实现，
+            展示了现代AI技术如何与先进的CSS框架结合，创造出专业、高效且美观的用户界面。
+          </p>
+          <a href="http://www.test.com" target="_blank" class="inline-flex items-center px-5 py-2.5 bg-indigo-600 hover:bg-indigo-700 text-white rounded-lg transition-colors duration-200 shadow-sm hover:shadow-md">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+            </svg>
+            查看详细文章
+          </a>
+        </div>
+        <div class="md:w-1/2 bg-gradient-to-br from-indigo-500 to-purple-600 p-8 text-white">
+          <div class="bg-white/10 backdrop-blur-sm rounded-lg p-6 shadow-inner">
+            <div class="flex items-center mb-4">
+              <div class="flex space-x-1">
+                <div class="w-3 h-3 rounded-full bg-red-400"></div>
+                <div class="w-3 h-3 rounded-full bg-yellow-400"></div>
+                <div class="w-3 h-3 rounded-full bg-green-400"></div>
+              </div>
+              <div class="ml-2 text-xs opacity-70">AI代码生成器</div>
+            </div>
+            <div class="font-mono text-sm opacity-90 space-y-2">
+              <div class="flex items-center">
+                <span class="text-purple-300 mr-2">AI:</span>
+                <span>生成一个响应式导航栏组件</span>
+              </div>
+              <div class="flex items-center">
+                <span class="text-green-300 mr-2">→</span>
+                <span class="text-blue-200">&lt;nav class="flex items-center justify-between p-4"&gt;</span>
+              </div>
+              <div class="flex items-center pl-6">
+                <span class="text-blue-200">&lt;div class="flex items-center space-x-4"&gt;</span>
+              </div>
+              <div class="flex items-center pl-6">
+                <span class="text-blue-200">// Tailwind CSS 代码生成中...</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="bg-gradient-to-r from-indigo-500 to-purple-600 text-white rounded-xl p-8 text-center">
       <h2 class="text-2xl font-bold mb-4">准备好开始使用了吗？</h2>
       <p class="mb-6 max-w-2xl mx-auto">Tailwind CSS 4.0将彻底改变您构建用户界面的方式，让您的开发过程更加高效和愉快。</p>
